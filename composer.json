@@ -1,0 +1,25 @@
+{
+  "name": "jamset/client_basic",
+  "description": "Basic classes for client modules",
+  "require": {
+    "php": ">=5.5.9",
+    "monolog/monolog": "^1.19",
+    "jamset/php-adjutants": "dev",
+    "jamset/inventory_basic": "dev",
+    "jamset/tasks-inspector": "dev",
+    "jamset/commands-executor": "dev"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jam Set",
+      "email": "jamset@joinger.org"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "FractalBasic\\Client\\": "src/"
+    }
+  }
+}
