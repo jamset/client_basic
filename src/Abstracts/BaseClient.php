@@ -7,15 +7,15 @@
  */
 namespace App\FWIndependent\Clients\Abstracts;
 
-use App\FWIndependent\Adjutant\Processes\Ports;
+use AdjutantHandlers\Processes\Ports;
 use FractalBasic\Client\Interfaces\Client;
 use FractalBasic\Client\Interfaces\ClientPortsModelInterface;
-use App\FWIndependent\CommandsExecution\CommandsManager;
+use CommandsExecutor\CommandsManager;
 use FractalBasic\Client\Inventory\ClientConstants;
 use FractalBasic\Client\Inventory\Exceptions\ClientException;
-use App\FWIndependent\Inventory\CommonConstants;
-use App\FWIndependent\TasksInspector\Inspector;
-use App\FWIndependent\TasksInspector\Inventory\InspectionDto;
+use FractalBasic\Inventory\CommonConstants;
+use TasksInspector\Inspector;
+use TasksInspector\Inventory\InspectionDto;
 use Monolog\Logger;
 
 abstract class BaseClient implements Client
