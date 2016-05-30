@@ -91,10 +91,10 @@ abstract class BaseClient implements Client
      */
     protected $requiredPortsNumber;
 
-    /**
+    /**CONSISTENT | PARALLEL
      * @var string
      */
-    protected $executionType;
+    protected $executionType = CommonConstants::CONSISTENT;
 
     /**
      * @var string
