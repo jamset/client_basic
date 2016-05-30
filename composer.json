@@ -4,10 +4,10 @@
   "require": {
     "php": ">=5.5.9",
     "monolog/monolog": "^1.19",
-    "jamset/php-adjutants": "dev",
-    "jamset/inventory_basic": "dev",
-    "jamset/tasks-inspector": "dev",
-    "jamset/commands-executor": "dev"
+    "jamset/php-adjutants": "dev-master",
+    "jamset/inventory_basic": "dev-master",
+    "jamset/tasks-inspector": "dev-master",
+    "jamset/commands-executor": "dev-master"
   },
   "license": "MIT",
   "authors": [
